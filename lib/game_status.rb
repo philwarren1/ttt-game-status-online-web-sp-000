@@ -37,6 +37,7 @@ def won?(board)
      position_3 == "O" 
      return win_combination
     end
+  end  
  end 
 def full?(board)
    board.all? {|i| i == "X" || i == "O"}
